@@ -10,6 +10,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
+        System.out.println("测试上传 github");
         return "hello springboot - springmvc -----------";
     }
 
